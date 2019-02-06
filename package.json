@@ -1,0 +1,30 @@
+{
+  "name": "http-api-assignment",
+  "version": "1.0.0",
+  "description": "Http api assignment",
+  "main": "./src/server.js",
+  "engines": {
+    "node": "10.14.1",
+    "npm": "6.4.1"
+  },
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlt9768/http-api-assignment.git"
+  },
+  "author": "James Troup",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlt9768/http-api-assignment/issues"
+  },
+  "homepage": "https://github.com/jlt9768/http-api-assignment#readme",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  }
+}
